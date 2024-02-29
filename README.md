@@ -1,15 +1,16 @@
 C-BinaryTrees
+
 1-Project Overview:
 
 C-BinaryTrees is a solo project focused on exploring the intricacies of binary trees. The project delves into the details, advantages, and disadvantages of using trees as fundamental data structures. Throughout the development process, I implemented various types of binary trees, including binary, binary search, AVL, and Max Binary Heap trees.
 
 2-Key Components:
 
-1-Tests: The tests folder contains test files for all tasks, provided by ALX.
+*Tests: The tests folder contains test files for all tasks, provided by ALX.
 
-2-Helper File: binary_tree_print.c is a vital C function responsible for printing binary trees in a visually appealing format.
+*Helper File: binary_tree_print.c is a vital C function responsible for printing binary trees in a visually appealing format.
 
-3-Header File: binary_trees.h is the project's header file, housing definitions and prototypes for all types and functions developed during the project.
+*Header File: binary_trees.h is the project's header file, housing definitions and prototypes for all types and functions developed during the project.
 
 3-Data Structures:
 /**
@@ -29,6 +30,7 @@ struct binary_tree_s
 };
 
 typedef struct binary_tree_s binary_tree_t;
+
 4-Function Prototypes:
 
 The project encapsulates various functions tailored for binary trees, including operations for traversal, insertion, deletion, balancing, and more.
